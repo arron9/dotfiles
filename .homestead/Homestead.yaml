@@ -12,10 +12,42 @@ keys:
 folders:
     - map: F:/webroot
       to: /home/vagrant/Code
+    - map: F:/pythonpr
+      to: /home/vagrant/python_project
 
 sites:
     - map: homestead.app
       to: /home/vagrant/Code/h5game/public
+    - map: passport.tmqmqj.com
+      to: /home/vagrant/Code/passport.tmqmqj.com/cipher.tmqmqj.com
+      type: php 
+    - map: qmqj2.yulunky.com
+      to: /home/vagrant/Code/app/public
+      type: php 
+    - map: ad.mg3721.com 
+      to: /home/vagrant/Code/ad-webapp/public
+      type: php 
+    - map: adadmin.mg3721.com 
+      to: /home/vagrant/Code/ad-admin
+      type: ci 
+    - map: admobile2.xy.com
+      to: /home/vagrant/Code/admin2
+      type: ci 
+    - map: mu.xy.com
+      to: /home/vagrant/Code/mu.xy.com
+      type: ci 
+    - map: hz.xy.com
+      to: /home/vagrant/Code/hz.xy.com
+      type: ci 
+    - map: wzcq.xy.com
+      to: /home/vagrant/Code/wzcq.xy.com
+      type: ci 
+    - map: video.mg3721.com
+      to: /home/vagrant/Code/mg-video/public
+      type: kingphp 
+      php: "7.1" 
+
+
 
 databases:
     - homestead
