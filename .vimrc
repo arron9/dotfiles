@@ -639,7 +639,6 @@ let g:indent_guides_guide_size=1
 " 快捷键 i 开/关缩进可视化
 :nmap <silent> <Leader>i <Plug>IndentGuidesToggle
 
-
 set noundofile
 let g:blade_custom_directives = ['datetime', 'namespaced::directive']
 let g:blade_custom_directives_pairs = {'cache': 'endcache'}
@@ -655,4 +654,3 @@ nmap    w,  :vertical resize -3<CR>
 nmap    w.  :vertical resize +3<CR>
 
 hi VertSplit guibg=#002b36 
-
